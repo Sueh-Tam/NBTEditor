@@ -94,7 +94,7 @@ Contributions are what make the open-source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-Project Link: [https://github.com/yourusername/NBTEditor](https://github.com/yourusername/NBTEditor)
+Project Link: [https://github.com/Sueh-Tam/NBTEditor](https://github.com/Suth-Tam/NBTEditor)
 
 ---
 
@@ -194,4 +194,4 @@ As contribuições são o que tornam a comunidade de código aberto um lugar inc
 Distribuído sob a Licença MIT. Veja o arquivo `LICENSE` para mais informações.
 
 ## Contato
-Link do Projeto: [https://github.com/seusuario/NBTEditor](https://github.com/seusuario/NBTEditor)
+Link do Projeto: [https://github.com/Sueh-Tam/NBTEditor](https://github.com/Sueh-Tam/NBTEditor)
