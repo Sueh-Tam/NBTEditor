@@ -1,0 +1,39 @@
+name: Build and Release NBTEditorPro
+
+on:
+  push:
+    tags:
+      - 'v*' # Dispara a action sempre que uma tag começando com 'v' for enviada (ex: v1.0.0)
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13' # Usando a versão que você tem no ambiente local
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pyinstaller
+
+    - name: Build executable with PyInstaller
+      run: |
+        python -m PyInstaller --noconsole --onefile --name "NBTEditorPro" main.py
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: dist/NBTEditorPro.exe
+        name: Release ${{ github.ref_name }}
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
