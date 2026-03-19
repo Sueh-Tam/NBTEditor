@@ -1,7 +1,7 @@
-# NBT Editor Pro
+# NBT Editor
 
 ## Introduction
-NBT Editor Pro is a comprehensive desktop application designed for viewing and editing Minecraft's NBT (Named Binary Tag) files. It features a robust parser and a user-friendly graphical interface, making it an essential tool for developers and server administrators working with Minecraft data.
+NBT Editor is a comprehensive desktop application designed for viewing and editing Minecraft's NBT (Named Binary Tag) files. It features a robust parser and a user-friendly graphical interface, making it an essential tool for developers and server administrators working with Minecraft data.
 
 ## Key Features
 - **Robust Parser**: Full support for uncompressed, GZIP, and ZLIB files.
@@ -98,10 +98,10 @@ Project Link: [https://github.com/Sueh-Tam/NBTEditor](https://github.com/Suth-Ta
 
 ---
 
-# NBT Editor Pro
+# NBT Editor
 
 ## Introdução
-O NBT Editor Pro é um aplicativo desktop completo desenvolvido para visualização e edição de arquivos NBT (Named Binary Tag) do Minecraft. Ele conta com um parser robusto e uma interface gráfica amigável, tornando-se uma ferramenta essencial para desenvolvedores e administradores de servidores que lidam com dados do Minecraft.
+O NBT Editor é um aplicativo desktop completo desenvolvido para visualização e edição de arquivos NBT (Named Binary Tag) do Minecraft. Ele conta com um parser robusto e uma interface gráfica amigável, tornando-se uma ferramenta essencial para desenvolvedores e administradores de servidores que lidam com dados do Minecraft.
 
 ## Principais Funcionalidades
 - **Parser Robusto**: Suporte completo a arquivos não comprimidos, GZIP e ZLIB.
