@@ -3,7 +3,11 @@ name: Build and Release NBTEditorPro
 on:
   push:
     tags:
-      - 'v*' # Dispara a action sempre que uma tag começando com 'v' for enviada (ex: v1.0.0)
+      - 'v*'
+
+# Isso é o que resolve o erro 403:
+permissions:
+  contents: write
 
 jobs:
   build-windows:
@@ -16,7 +20,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.13' # Usando a versão que você tem no ambiente local
+        python-version: '3.13'
 
     - name: Install dependencies
       run: |
